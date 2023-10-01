@@ -14,7 +14,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 body {
-    width: 1440px;
     background-color: var(--cream);
     padding: 75px;
 }
@@ -26,13 +25,13 @@ main {
 article {
     display: flex;
     width: 100vh;
-    max-height: 100vh;
+    justify-content: center;
 }
 
 section {
     display: flex;
     flex-direction: column;
-
+    max-height: 100vh;
 }
 
 .left {
@@ -46,7 +45,6 @@ section img {
 
 .right {
     border-radius: 0px 12px 12px 0px;
-
     background-color: var(--white);
 }
 
